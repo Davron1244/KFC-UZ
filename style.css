@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header__navbar {
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__right {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.header__right button {
+    background: #E4002B;
+    cursor: pointer;
+    border: none;
+    border-radius: 36px;
+    color: #fff;
+    width: 160px;
+    height: 37px;
+}
+
+.header__right .active {
+    width: 30%;
+}
+
+.icon-man {
+    margin-top: 10px;
+}
+
+.relative__box {
+    margin-top: 91px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.combo {
+    margin-top: 100px;
+}
+
+.food_name {
+    margin-top: 40px;
+    font-size: 17.19px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #2F322C;
+    margin-bottom: 32px;
+}
+
+footer {
+    padding: 11px 26px;
+    background-color: #E4002B;
+}
